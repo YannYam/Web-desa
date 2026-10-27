@@ -13,7 +13,7 @@ $masjidList = $db->query('SELECT * FROM masjid ORDER BY sort_order ASC')->fetchA
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<section class="page-header">
+<section class="page-header page-header-masjid">
     <div class="container">
         <h1 class="page-title">Masjid</h1>
         <p class="page-subtitle">Tempat ibadah di lingkungan Desa Bragang</p>

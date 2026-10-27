@@ -26,7 +26,7 @@ foreach ($pendidikan as $p) {
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<section class="page-header">
+<section class="page-header page-header-pendidikan">
     <div class="container">
         <h1 class="page-title">Pendidikan</h1>
         <p class="page-subtitle">Lembaga pendidikan di Desa Bragang</p>

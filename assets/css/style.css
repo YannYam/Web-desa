@@ -199,7 +199,7 @@ table {
     position: absolute;
     inset: 0;
     /* background: linear-gradient(135deg, var(--green-900) 0%, rgba(27,67,50,0.85) 100%); */
-    background-image: url(../images/bg.jpeg);
+    background-image: url(../images/beranda.jpeg);
     filter: brightness(40%);
     background-size: cover;
     background-position: center;
@@ -262,9 +262,32 @@ table {
 
 /* --- Page Header (interior pages) --- */
 .page-header {
-    background: var(--green-900);
     padding: 3rem 0 2.5rem;
     color: var(--white);
+}
+
+.page-header-masjid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/masjid.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header-pendidikan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/pendidikan.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header-sejarah {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sejarah.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page-header-wilayah {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/wilayah.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 .page-title {

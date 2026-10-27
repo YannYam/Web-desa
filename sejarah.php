@@ -14,7 +14,7 @@ $timeline = $db->query('SELECT * FROM timeline ORDER BY sort_order ASC')->fetchA
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<section class="page-header">
+<section class="page-header page-header-sejarah">
     <div class="container">
         <h1 class="page-title">Sejarah Desa</h1>
         <p class="page-subtitle">Perjalanan panjang Desa Bragang dari masa ke masa</p>

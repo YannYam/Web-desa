@@ -20,7 +20,7 @@ foreach ($wilayah as $w) {
 require_once __DIR__ . '/includes/header.php';
 ?>
 
-<section class="page-header">
+<section class="page-header page-header-wilayah">
     <div class="container">
         <h1 class="page-title">Wilayah Desa</h1>
         <p class="page-subtitle">Pembagian wilayah administratif Desa Bragang</p>
